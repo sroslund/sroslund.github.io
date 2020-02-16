@@ -1,2 +1,1 @@
-# sroslund.github.io
-Scott's website
+# Welcome to Scott's Website!
