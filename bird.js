@@ -7,7 +7,7 @@ sprite.src = "flap/monkaS.png";
 function draw(){
 	ctx.fillStyle = "#70c5ce";
 	ctx.fillRect(0,0,cvs.width,cvs.height);
-	ctx.drawImage(sprite,0,0,75,50,10,10,75,50);
+	ctx.drawImage(sprite,10,10);
 }
 
 function loop(){
