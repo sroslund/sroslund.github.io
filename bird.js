@@ -2,7 +2,7 @@ const cvs = document.getElementById("myCanvas");
 const ctx = cvs.getContext("2d");
 
 var img = new Image();
-img.src = "flap/monkaS.png";
+img.src = "https://image.shutterstock.com/image-photo/colorful-flower-on-dark-tropical-260nw-721703848.jpg";
 ctx.drawImage(img,10,10);
 
 /*
