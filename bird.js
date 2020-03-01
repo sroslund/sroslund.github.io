@@ -4,6 +4,9 @@ const ctx = cvs.getContext("2d");
 const sprite = new Image();
 sprite.src = "flap/monkaS.png";
 
+
+
+
 const bird = {
 	x: 50,
 	y: 150,
@@ -11,8 +14,8 @@ const bird = {
 		ctx.drawImage(sprite,this.x,this.y);
 	}
 
-}
-
+bird.draw();
+/*
 function draw(){
 //	ctx.fillStyle = "#70c5ce";
 //	ctx.fillRect(0,0,cvs.width,cvs.height);
@@ -28,4 +31,4 @@ function loop(){
 	draw();  
   
 }
-loop();
+loop();*/
