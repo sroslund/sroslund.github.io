@@ -1,7 +1,8 @@
 const cvs = document.getElementById("myCanvas");
 const ctx = cvs.getContext("2d");
 
-var img = document.getElementById("monkaS");
+var img = new Image();
+img.src = "https://www.prestigeanimalhospital.com/sites/default/files/styles/large/adaptive-image/public/golden-retriever-dog-breed-info.jpg?itok\u003dscGfz-nI"
 ctx.drawImage(img,10,10)
 
 /*
