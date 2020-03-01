@@ -3,15 +3,12 @@
 <head>
 	<title>Scott's Flappy Bird</title>
 </head>
-<body>
-Hi Jessica!
+<body onload="startGame()">
+Credit to w3schools.com
 <br>
-	<embed src="Professor Umbridge.mp3" autostart="true" loop="true" width="0" height="0">
-	<canvas id="myCanvas" width="1000" height="700" style="border:1px solid #000000;">
-	Failed to load canvas. Please use a different web browser
-	</canvas>
-
-	<script src="bird.js"></script>
+<script src="bird.js"></script>
+<br>
+<button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
 </body>
 
 </html>
