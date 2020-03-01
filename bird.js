@@ -16,7 +16,7 @@ const bird = {
 
 bird.draw();*/
 ctx.font = "30px Arial";
-ctx.fillText('Hi Scott!", 100, 100)
+ctx.fillText("Hi Scott!", 100, 100);
 /*
 function draw(){
 //	ctx.fillStyle = "#70c5ce";
