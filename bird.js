@@ -1,5 +1,9 @@
 const cvs = document.getElementById("myCanvas");
 const ctx = cvs.getContext("2d");
+
+var img = document.getElementById("monkaS");
+ctx.drawImage(img,10,10)
+
 /*
 const sprite = new Image();
 sprite.src = "flap/monkaS.png";
@@ -14,9 +18,9 @@ const bird = {
 		ctx.drawImage(sprite,this.x,this.y);
 	}
 
-bird.draw();*/
+bird.draw();
 ctx.font = "30px Arial";
-ctx.fillText("Hi Scott!", 100, 100);
+ctx.fillText("Hi Scott!", 100, 100);*/
 /*
 function draw(){
 //	ctx.fillStyle = "#70c5ce";
