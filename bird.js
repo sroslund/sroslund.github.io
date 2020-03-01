@@ -1,6 +1,6 @@
 const cvs = document.getElementById("myCanvas");
 const ctx = cvs.getContext("2d");
-
+/*
 const sprite = new Image();
 sprite.src = "flap/monkaS.png";
 
@@ -14,7 +14,7 @@ const bird = {
 		ctx.drawImage(sprite,this.x,this.y);
 	}
 
-bird.draw();
+bird.draw();*/
 ctx.font = "30px Arial";
 ctx.fillText('Hi Scott!", 100, 100)
 /*
