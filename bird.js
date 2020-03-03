@@ -14,6 +14,6 @@ const birb = {
 	update : funtion(){
 		this.y = this.y - this.dy;
 	}
-}
+};
 
-birb.draw()
+birb.draw();
