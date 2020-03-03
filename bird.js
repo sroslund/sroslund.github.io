@@ -16,9 +16,4 @@ const birb = {
 	}
 }
 
-function loop(){
-	birb.update();
-	birb.draw();
-}
-loop();
-
+birb.draw()
