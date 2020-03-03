@@ -20,7 +20,8 @@ const birb = {
 }
 
 function loop(){
-	bird.draw();
+	birb.draw();
+	birb.update();
 	requestAnimationFrame(loop);
 }
 
