@@ -14,7 +14,7 @@ const birb = {
 		ctx.fillRect(this.x,this.y,100,100);
 	},
 	
-	update : funtion(){
+	update : function(){
 		this.y = this.y - this.dy;
 	}
 }
