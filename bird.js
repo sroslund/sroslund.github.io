@@ -14,6 +14,11 @@ const birb = {
 	update : funtion(){
 		this.y = this.y - this.dy;
 	}
-};
+}
 
-birb.draw();
+function loop(){
+	bird.draw();
+	requestAnimationFrame(loop);
+}
+
+loop();
