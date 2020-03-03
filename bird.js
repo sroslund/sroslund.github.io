@@ -10,6 +10,8 @@ const birb = {
 	dy: -1,
 
 	draw : function(){
+		ctx.fillStyle = 'red';
+		ctx.fillRect(0,0,1000,700)
 		ctx.fillStyle = 'yellow';
 		ctx.fillRect(this.x,this.y,100,100);
 	},
