@@ -8,7 +8,7 @@ const birb = {
 	x: 10,
 	y: 10,
 	dy: -1,
-	grav: .5,
+	grav: .25,
 
 	draw : function(){
 		ctx.fillStyle = 'red';
@@ -20,6 +20,10 @@ const birb = {
 	update : function(){
 		this.dy = this.dy - this.grav
 		this.y = this.y - this.dy;
+	},
+	
+	jump : function(){
+		this.dy = 8;
 	}
 }
 
@@ -27,6 +31,7 @@ function loop(){
 	birb.draw();
 	birb.update();
 	requestAnimationFrame(loop);
+	canvas.onkeypress = function() {birb.jump()};
 }
 
 loop();
