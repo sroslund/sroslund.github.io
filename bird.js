@@ -4,6 +4,8 @@ const ctx = canvas.getContext("2d");
 ctx.fillStyle = 'blue';
 ctx.fillRect(200,200,100,100);
 
+canvas.addEventListener("click", birb.jump);
+
 const birb = {
 	x: 10,
 	y: 10,
@@ -31,7 +33,6 @@ function loop(){
 	birb.draw();
 	birb.update();
 	requestAnimationFrame(loop);
-	canvas.onkeypress = function() {birb.jump()};
 }
 
 loop();
