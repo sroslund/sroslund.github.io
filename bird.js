@@ -7,7 +7,7 @@ ctx.fillRect(200,200,100,100);
 canvas.addEventListener("click", birb.jump);
 */
 
-canvas.addEventListener("click", birb.jump());
+
 const birb = {
 	x: 10,
 	y: 10,
@@ -30,6 +30,8 @@ const birb = {
 		this.dy = 8;
 	}
 }
+
+canvas.addEventListener("click", birb.jump());
 
 function loop(){
 	birb.draw();
