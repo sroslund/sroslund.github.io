@@ -6,6 +6,8 @@ ctx.fillRect(200,200,100,100);
 
 canvas.addEventListener("click", birb.jump);
 */
+
+canvas.addEventListener("click", birb.jump());
 const birb = {
 	x: 10,
 	y: 10,
