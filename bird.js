@@ -32,7 +32,7 @@ const birb = {
 }
 
 function loop(){
-	canvas.addEventListener("keydown", birb.jump());
+	canvas.addEventListener("click", birb.jump() { }, false);
 	birb.draw();
 	birb.update();
 	requestAnimationFrame(loop);
