@@ -31,9 +31,8 @@ const birb = {
 	}
 }
 
-canvas.addEventListener("click", birb.jump());
-
 function loop(){
+	canvas.addEventListener("keydown", birb.jump());
 	birb.draw();
 	birb.update();
 	requestAnimationFrame(loop);
